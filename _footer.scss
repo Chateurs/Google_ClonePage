@@ -48,6 +48,9 @@ footer {
     
 
      }
+     li:hover{
+         @include HoverX();
+     }
     
     
     
