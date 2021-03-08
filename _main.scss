@@ -1,0 +1,82 @@
+@mixin background {
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png);
+        background-position: right;
+        background-size: 14px 20px;
+        background-repeat: no-repeat;
+        background-position-x: 545px;
+        background-color: white;
+        cursor: pointer;
+    }
+
+  @mixin Hover {
+        box-shadow: 0 2px 6px 0 #20212447;
+        border-color: #dfe1e500;
+     }  
+
+
+main{
+    text-align: center;
+    background: white;
+    margin-top: 190px;
+    div{
+        img{ 
+            width: 280px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+            padding: 0;
+
+        }
+    }
+    section{
+
+        input{
+            margin-top: 0;
+            width: 558px;
+            height: 26px;
+            border-radius: 100px;
+            border:1px solid #ccc;
+            outline: black;
+            margin-bottom: 20px;
+            text-indent: 30px;
+            @include background();
+           
+            
+        }
+        :hover{
+            @include Hover();
+        }
+    }
+    input{
+        margin: 5px;
+        padding: 9px 9px 9px 9px;
+        border-radius: 4px;
+        font-size: 15px;
+        border:none;
+        margin-bottom: 40px;
+        outline: none;
+        background-color: #f8f9fa;
+     }
+     input:hover{
+        
+        @include Hover();
+          
+     }
+     
+
+   
+    
+    label{
+      display: block;
+      a:hover{
+          text-decoration: underline;
+      }
+    }
+    
+
+        
+    }
+
+
+
+
+

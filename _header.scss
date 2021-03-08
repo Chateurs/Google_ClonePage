@@ -1,0 +1,50 @@
+header{
+width: 100%;
+height: auto;
+}
+
+header{
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        ul{
+            cursor: pointer;
+            width: 250px;
+            height: auto;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            margin-right:1px;
+            margin-top: 0;
+                
+            a{
+                margin: 7px;
+                color: black;
+                    
+            }
+            li{
+                img{
+                    width: 20px;
+                    height: 20px;
+                    margin: 13px;
+                    
+                }
+                    
+                .profile_img{
+                    border-radius: 50%;
+                    width: 33px;
+                    height: 33px;
+                }
+                :hover{
+                    background: none;
+                    text-decoration: underline;
+                }  
+                    
+
+            }
+            
+        }
+
+     }
+}
